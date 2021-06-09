@@ -8,7 +8,7 @@ while True:
         print("your guess is too low")
 
     elif guess>actual_number:
-        print("your guess is too low")
+        print("your guess is too high")
 
     else:
         print(f"You guessed the number in {counts} counts")
